@@ -18,16 +18,17 @@
 
 	};
 	
-function NextFrag(){
 
- if (index < URLArray.length)
- {
-   $("#VideoContainer").html('<video  id="video1" controls autoplay width="100%"> "<source src= "'+ URLArray[index]+ '" type="video/mp4"></source> </video>' );
-   index++;
-   $("#video1").bind( "ended", NextFrag);
- }
-}
 
+// get the video
+var video = document.querySelector('video');
+// use the whole window and a *named function*
+window.addEventListener('touchstart', function videoStart() {
+  video.play();
+  console.log('first touch');
+  // remove from the window and call the function we are removing
+  this.removeEventListener('touchstart', videoStart);
+});
 
 	var offcanvasMenu = function() {
 
