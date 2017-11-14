@@ -529,6 +529,18 @@ h1, h2, h3, h4, h5, h6, figure {
   .timeline > li > .timeline-panel:after {
     top: 31px;
   }
+   
+  .heart4 {
+    font-size: 90px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+  }
+  
+  /* Heart beat animation */
+  @keyframes beat{
+    to { transform: scale(0.9); }
+  }
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
