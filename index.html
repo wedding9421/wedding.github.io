@@ -209,13 +209,8 @@
 	<script>
 		// default example
 		var d = new Date();
-		d.setDate(d.getDate() + a);
-		var a= new Date();
-		for(var i=0;i<40;i++)
-		{
-		      b=a-Date();
-		     return b;
-		}
+		var a=(d.getDate()+39)-1;
+		d.setDate(a);
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
 			month: d.getMonth() + 1,
