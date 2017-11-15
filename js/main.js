@@ -117,9 +117,9 @@
 
 		} , { offset: '85%' } );
 	};
-	var audio = new Audio('music/1.mp3');
-audio.play();
-
+	window.onload = function() {
+    document.getElementById("my_audio").play();
+}
 	var dropdown = function() {
 
 		$('.has-dropdown').mouseenter(function(){
