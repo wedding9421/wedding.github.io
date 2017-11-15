@@ -122,7 +122,7 @@
         var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         var source = audioCtx.createBufferSource();
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'audio-autoplay.wav');
+        xhr.open('GET', 'music/1.mp3');
         xhr.responseType = 'arraybuffer';
         xhr.addEventListener('load', function (r) {
             audioCtx.decodeAudioData(
