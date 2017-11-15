@@ -209,7 +209,7 @@
 	<script>
 		// default example
 		var d = new Date();
-		d.setDate(d.getDate() + 41);
+		d.setDate(d.getDate() + 40-d.getDate());
 
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
