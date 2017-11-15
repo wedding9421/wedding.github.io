@@ -117,11 +117,8 @@
 
 		} , { offset: '85%' } );
 	};
-	
-	sound = document.createElement('audio');
-sound.setAttribute('src', 'music/1.mp3');
-sound.play();
-
+	var audio = new Audio('1.mp3');
+audio.play();
 
 	var dropdown = function() {
 
