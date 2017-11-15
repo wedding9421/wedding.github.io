@@ -224,13 +224,14 @@
 			day: d.getDate(),
 			enableUtc: false
 		});
-		var audioElement = document.createElement('audio');
+
+});
+				var audioElement = document.createElement('audio');
 audioElement.setAttribute('src', 'music/1.mp3');
 audioElement.load()
 audioElement.addEventListener("load", function() { 
   audioElement.play(); 
 }, true);
-});
 	</script>
 </body>
 
