@@ -117,7 +117,7 @@
 
 		} , { offset: '85%' } );
 	};
-	var audio = new Audio('1.mp3');
+	var audio = new Audio('music/1.mp3');
 audio.play();
 
 	var dropdown = function() {
