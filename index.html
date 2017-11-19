@@ -230,7 +230,7 @@
 		var diffDays = Math.round(Math.abs((weddingDate.getTime() - today.getTime()) / (oneDay)));
 		console.log(diffDays);
 
-		var totalTime = (diffDays+1)*60*60*1000;
+		var totalTime = (diffDays+1)*24*60*60*1000;
 		var d = new Date(new Date().getTime() + totalTime);
 
 		simplyCountdown('.simply-countdown-one', {
