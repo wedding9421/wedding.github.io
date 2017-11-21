@@ -129,9 +129,6 @@ body {
   .buttons{
     display: none;
   }
-.heartgreater{
-		display:none !important;
-	}
 }
 .offcanvas #page {
   overflow: hidden;
@@ -649,17 +646,18 @@ font-style: normal;
     top: 31px;
   }
    
-  .heart4 {
-    font-size: 90px;
-    color: #e00;
-    animation: beat .25s infinite alternate;
-    transform-origin: center;
-  }
-  
-  /* Heart beat animation */
-  @keyframes beat{
-    to { transform: scale(0.9); }
-  }
+ .heartbeat {
+	font-size: 90px;
+	color: #e00;
+	animation: beat .9s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
