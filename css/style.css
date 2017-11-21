@@ -129,6 +129,7 @@ body {
   .buttons{
     display: none;
 }
+}
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
