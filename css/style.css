@@ -129,6 +129,9 @@ body {
   .buttons{
     display: none;
   }
+	.heart4{
+		display:none;
+	}
 }
 .offcanvas #page {
   overflow: hidden;
