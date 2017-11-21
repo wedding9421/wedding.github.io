@@ -128,7 +128,6 @@ body {
 
   .buttons{
     display: none;
-  }
 }
 .offcanvas #page {
   overflow: hidden;
@@ -633,8 +632,6 @@ font-style: normal;
   content: " ";
 }
 
-
-}
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
     width: 75% !important;
@@ -659,7 +656,6 @@ font-style: normal;
 }
 }
 
-}
 .timeline > li > .timeline-badge {
   background-size: cover;
   background-position: top center;
