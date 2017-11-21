@@ -129,7 +129,7 @@ body {
   .buttons{
     display: none;
   }
-.heart4{
+.heartgreater{
 		display:none !important;
 	}
 }
@@ -354,14 +354,6 @@ font-style: normal;
   float: left;
   position: relative;
 }
- .heart4 {
-    font-size: 90px;
-    color: #e00;
-    animation: beat 0.8s infinite alternate;
-    transform-origin: center;
-    text-align: center;
-  }
-
 .fh5co-video {
   height: 450px;
   overflow: hidden;
