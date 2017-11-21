@@ -129,8 +129,8 @@ body {
   .buttons{
     display: none;
   }
-	.heart4{
-		display:none;
+.heart4{
+		display:none !important;
 	}
 }
 .offcanvas #page {
@@ -643,10 +643,7 @@ font-style: normal;
   border-bottom: 14px solid transparent;
   content: " ";
 }
-@media screen and (min-width: 480px){
-	.heart4{
-		display:none;
-	}
+
 
 }
 @media screen and (max-width: 480px) {
