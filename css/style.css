@@ -128,7 +128,11 @@ body {
 
   .buttons{
     display: none;
+	  
 }
+	.heartout{
+		display:none;
+	}
 }
 .offcanvas #page {
   overflow: hidden;
